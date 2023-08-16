@@ -1,0 +1,16 @@
+version: '3'
+services:
+  fulltclash:
+    image: 66211900/fulltclashbackend:4.0.0
+    restart: "always"
+    environment:
+      - TZ=Asia/Shanghai
+      - TOKEN=default
+    ports:
+      - "8765:8765"
+    #volumes:
+      #- ./config.yaml:/app/FullTclash/resources/config.yaml
+      #- ./ad:/app/FullTclash/addons
+      #- ./fulltclash-linux-amd64:/app/FullTclash/bin/fulltclash-linux-amd64
+      #- ./callback:/app/FullTclash/addons/callback
+      #- ./unlockTest:/app/FullTclash/addons/unlockTest
