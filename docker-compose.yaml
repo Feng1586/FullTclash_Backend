@@ -13,4 +13,4 @@ services:
       #- ./ad:/app/FullTclash/addons
       #- ./fulltclash-linux-amd64:/app/FullTclash/bin/fulltclash-linux-amd64
       #- ./callback:/app/FullTclash/addons/callback
-      #- ./unlockTest:/app/FullTclash/addons/unlockTest
+      - ./unlockTest:/app/FullTclash/addons/unlockTest
