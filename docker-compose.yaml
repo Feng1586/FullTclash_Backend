@@ -8,7 +8,7 @@ services:
       - TOKEN=default
     ports:
       - "8765:8765"
-    #volumes:
+    volumes:
       #- ./config.yaml:/app/FullTclash/resources/config.yaml
       #- ./ad:/app/FullTclash/addons
       #- ./fulltclash-linux-amd64:/app/FullTclash/bin/fulltclash-linux-amd64
